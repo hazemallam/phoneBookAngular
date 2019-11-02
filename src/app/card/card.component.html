@@ -1,0 +1,23 @@
+<p>card works!</p>
+
+
+
+<table class="table table-dark">
+    <thead>
+      <tr>
+        
+        <th scope="col" class="text-center">Name</th>
+        <th scope="col" class="text-center">phone number</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let article of articles">
+        <!-- <th scope="row">1</th> -->
+        <td class="text-center">{{article.name}}</td>
+        <td class="text-center">{{article.phoneNumber}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  

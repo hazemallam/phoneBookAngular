@@ -1,0 +1,6 @@
+<form #myForm="ngForm" (ngSubmit)="formSubmit(myForm.value)">
+    <input name="name" placeholder="enter name" ngModel>
+    <input name="phoneNumber" placeholder="enter phoneNumber" ngModel>
+    <button type="submit">add</button>
+</form>
+
